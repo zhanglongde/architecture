@@ -62,3 +62,18 @@ ftp
 wget 从网络上自动下载文件
 telnet
 ssh
+
+
+### seq ###
+seq start end
+
+
+### sed ###
+stream editor
+nl 文件名 |
+sed '2,5d' 将第 2~5 行删除
+sed '2a drink tea' 在第二行后(亦即是加在第三行)加上『drink tea?』字样
+sed '2i drink tea' 在第二行前(亦即是加在第一行)加上『drink tea?』字样
+
+
+### awk ###
