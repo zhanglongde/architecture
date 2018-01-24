@@ -13,6 +13,7 @@ ln
 
 find
 grep 过滤字符流
+grep -E ''正则
 xargs 字符流转化为参数
 - find与grep
 find . -name '*.json' |grep spinners
@@ -77,3 +78,11 @@ sed '2i drink tea' 在第二行前(亦即是加在第一行)加上『drink tea?�
 
 
 ### awk ###
+
+
+
+### yum ###
+yum install
+
+
+### systemctl ###
