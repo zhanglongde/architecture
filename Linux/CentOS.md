@@ -29,3 +29,6 @@ iptables
 selinux 安全增强模式
 curl
 curl --head www.baidu.com 查看Header头部
+
+rpm
+rpm -qa|grep bind 检查是否安装bind
