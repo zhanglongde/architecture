@@ -4,12 +4,12 @@
 需要设置ip
 
 
-#### 查看网卡信息 ####
+### 查看网卡信息 ###
 ifconfig
 ip addr
 
 
-#### 设置网卡IP ####
+### 设置网卡IP ###
 vi /etc/sysconfig/network-scripts/ifcfg-ens33
 
 ----------
@@ -20,3 +20,10 @@ vi /etc/sysconfig/network-scripts/ifcfg-ens33
 ervice network restart
 
 [### Xshell连接CentOS7 ###](http://www.cnblogs.com/woider/p/6478617.html)
+
+
+
+### 安装CentOS ###
+BIOS 开启CPU虚拟化 F10
+开启之后出现黑屏结局方式：
+管理员身份 netsh winsock reset

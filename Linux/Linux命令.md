@@ -81,8 +81,30 @@ sed '2i drink tea' 在第二行前(亦即是加在第一行)加上『drink tea?�
 
 
 
-### yum ###
+### 安装 ###
 yum install
+rpm
+wget 类似于迅雷，是一种下载工具，用于下载网站/批量文件
+
+rpm与yum区别
+yum基于rpm
+rpm 只能安装已经下载到本地机器上的rpm 包. yum能在线下载并安装rpm包,能更新系统,且还能自动处理包与包之间的依赖问题,这个是rpm 工具所不具备的
+
+资源库repo
+路径 /etc/yum.repos.d/
+EPEL
+汇集了各种附加软件包的项目
+yum install epel-release
 
 
 ### systemctl ###
+systemctl restart
+systemctl start httpd.service
+systemctl restart httpd.service
+systemctl stop httpd.service
+systemctl reload httpd.service
+systemctl status httpd.service
+
+systemctl is-active mysql.service
+systemctl enable mysql.service
+systemctl disable mysql.service
