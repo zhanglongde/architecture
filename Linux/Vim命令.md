@@ -1,3 +1,5 @@
+vim是vi的加强版(vi improved)
+
 ### 关闭 ###
 :w
 :wq 保存并关闭
