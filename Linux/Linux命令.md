@@ -83,6 +83,7 @@ sed '2i drink tea' 在第二行前(亦即是加在第一行)加上『drink tea?�
 
 ### 安装 ###
 yum install
+   可选参数 -h帮助 -y当安装过程提示选择全部为yes -q不显示暗转过程
 rpm
 wget 类似于迅雷，是一种下载工具，用于下载网站/批量文件
 
